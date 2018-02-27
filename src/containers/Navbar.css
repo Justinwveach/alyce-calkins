@@ -1,0 +1,50 @@
+.Navbar {
+    background-color: rgba(255, 255, 255, 0); /* #1e4d79;*/
+    color: black;
+    text-align: left;
+    top: 0;
+    padding: 1rem;
+}
+
+.Navbar-table {
+    /*display: table; this will center it in the navbar */
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    float: right;
+}
+
+.Navbar #imgLogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+ul#horizontalList li {
+	display: inline;
+}
+
+.Navbar ul {
+    list-style-type: none;
+}
+
+.Navbar li {
+    text-decoration: none;
+}
+
+.Navbar a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.Navbar-logo {
+    float: left;
+    color: white;
+    font-size: 1.4rem;
+    position: relative;
+    font-weight: 600;
+}
